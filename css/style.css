@@ -29,25 +29,32 @@ body {
 }
 
 .title-logo {
-  margin-top: 20px;
+  margin-top: 1em;
 }
 
 .title-super {
-  font-size: 4.5em;
+  font-size: 6em;
+}
+
+@media (max-width: 900px) {
+  .title-super {font-size: 5em;}
+}
+
+@media (max-width: 400px) {
+  .title-super {font-size: 2em;}
 }
 
 .marketteLogo {
-  margin-top: 20px;
-  width: 100px;
-  height: 100px;
+  margin-top: .5em;
+  width: 1.5em;
+  height: 1.5em;
   background-color: darkgreen;
   font-size: 4.5em;
   font-weight: 900;
-  border-radius: 15px;
+  border-radius: .5em;
   color: aquamarine;
 }
 
 .projects {
-  margin-bottom: 30px;
-}
-
+  margin-bottom: 3em;
+};
