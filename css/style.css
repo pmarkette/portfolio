@@ -41,7 +41,7 @@ body {
 }
 
 @media (max-width: 400px) {
-  .title-super {font-size: 2em;}
+  .title-super {font-size: 3em;}
 }
 
 .marketteLogo {
